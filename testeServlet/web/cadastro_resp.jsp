@@ -18,6 +18,7 @@ Nota 1:   <%=a.getNota1()%>
 Nota 2:   <%=a.getNota2()%>
 Média:    <%=a.getMedia()%>
 Situação: <%=a.getSituacao()%>
+<input type="button" value="Voltar" onclick="history.go(-1)">
            </pre>
     </body>
 </html>

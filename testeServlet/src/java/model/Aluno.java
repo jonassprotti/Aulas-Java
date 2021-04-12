@@ -34,16 +34,10 @@ public class Aluno {
     }
     public void calcMedia(float nota1, float nota2){
         this.media = (this.nota1 + this.nota2) / 2;
-        this.situacao = (this.media < 6) ? "Repravado" : "Aprovado";
+        this.situacao = (this.media < 6) ? "Reprovado" : "Aprovado";
     }
 
-    public void setMedia(float media) {
-        this.media = media;
-    }
     public String getSituacao() {
         return situacao;
-    }
-    public void setSituacao(String situacao) {
-        this.situacao = situacao;
     }
 }
